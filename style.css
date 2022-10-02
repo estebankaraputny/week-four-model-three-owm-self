@@ -1,0 +1,597 @@
+/* Normalize */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+/* START NAVEGATION */
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./assets/image/design1_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container-navegation{
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+.navegation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+.title-principal{
+    font-size: 25px;
+    color: rgb(225, 241, 0);
+}
+
+/* .navegation-list{
+} */
+
+
+
+ .navegation-links{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+    padding: 0 5px;
+}
+
+.links{
+    background-color:  rgb(185, 19, 19);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.links:hover{
+    background-color: rgb(221, 34, 34);
+    color:rgb(255, 255, 255);
+    transition: .3s;
+}
+
+/* END NAVEGATION
+START MAIN SECTION */
+
+
+.container-section{
+    width: 85%;
+    margin: auto;
+}
+
+.conteiner-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.rejas{
+    background-color:  rgba(0, 0, 0, 0.397);
+    color: white;
+    width: 20%;
+    height: 350px;
+    text-align: center;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px rgba(0, 0, 0, 0.281); */
+}
+.rejas:hover{
+    background-color: rgba(0, 0, 0, 0.582);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.rejas-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    object-fit: cover;
+}
+
+.rejas-titles{
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+.rejas-parrafos{
+    font-size: 20px;
+}
+
+/* END INDEX - HOME 
+AND
+START ABOUT */
+
+
+.details-supreme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information-details{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255,255,255);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+}
+
+.information-details:hover{
+    background-color: rgba(0, 0, 0, 0.582);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.details-title{
+    margin-bottom: 15%;
+}
+
+.details-parrafo{
+    font-size: 20px;
+}
+
+
+/* END PAGE ABOUT and START PAGE CONTACT */
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.title-pages{
+   padding-top: 8%;
+    display: flex;
+    flex: 100%;
+}
+
+.title-pages-h2{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 40%;
+    margin: auto;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px ;
+    border-radius: 30px;
+}
+
+.form-content{
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    border-radius: 15px;
+}
+
+.contact-title-form{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.register-form {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+}
+
+.contact-title{
+    font-size: 20px;
+}
+
+.date-form{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(165, 2, 2);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    appearance: none;
+}
+
+
+.title-date-form{
+    width: 100%;
+    padding:10px 0;
+    color: rgb(255, 255, 255);
+}
+
+.form-botton{
+    width: 100%;
+    padding: 1em;
+    background:rgb(165,2,2);
+    border: none;
+    border-bottom: 1px solid rgb(165, 2, 2);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.form-botton:hover{
+    background:rgb(199, 6, 6);
+    cursor:pointer
+}
+
+.info-form{
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.774);
+}
+
+.title-info-form{
+    padding: 10px;
+    text-align: center;
+}
+
+.email-info-form, 
+.lorem-info-form,
+.emprese-info-form{ 
+    padding: 10px;
+}
+
+.emprese-info-form{
+    font-weight: bold;
+    font-size: 18px;
+    color:rgb(199, 6, 6);
+}
+
+.email-contact{
+    color: rgb(199, 6, 6);
+}
+
+
+/* END */
+
+/* INICIO PAGES RULES  */
+
+.container__rules{
+    background-color:rgba(0, 0, 0, 0.377) ;
+    border-radius: 5px;
+    padding: 20px;
+    margin:0 50px;
+}
+
+.rules__divition{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.rules__one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:rgba(0, 0, 0, 0.774);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.rules__two{
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.397);
+    border-radius: 5px;
+}
+
+.rules__three{
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin: 30px;
+    text-align: center;
+}
+
+.rules__title--one{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(165,2,2);
+}
+
+
+.rules__parrafo--one{
+    font-size: 18px;
+}
+
+.rules__list--one{
+    list-style-position: inside;
+}
+
+.title__bold{
+    font-weight: bold;
+    color: rgb(165,2,2);
+}
+
+.rules__list--li{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+.parrafo__two{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+
+
+.rules__list--two{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+
+/* START PAGE GAMES */
+
+
+
+.container__table{
+    background-color:rgba(0, 0, 0, 0.582);
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.subtitle__table{
+    padding: 5px 0;
+    text-align: center;
+    background-color:rgb(199, 6, 6);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 40%;
+    margin: auto;
+}
+
+
+.parrafo__table--line{
+    padding: 20px 0;
+    color: rgb(199, 6, 6);
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.table{
+    background-color:rgba(0, 0, 0, 0.582);
+    width: 70%;
+    padding: 5%;
+    border-radius: 5px;
+    margin: auto;
+}
+
+
+.table__style{
+    border-radius: 5px;
+    text-align: left;
+    border-collapse: collapse;
+   
+}
+
+
+thead{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+thead:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+th{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    color: #fff;
+}  
+
+
+td{
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+.container__info--extra{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+.margin__division{
+    padding: 20px 0;
+}
+
+.span__bold{
+    color:rgb(199, 6, 6);
+    font-weight: bold;
+}
+
+.display__cambio{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ADD MAPS  */
+.title__locations{
+    width: 40%;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.521);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.content__maps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(0, 0, 0, 0.582);
+    padding: 2%;
+    margin: 2%;
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.maps > iframe{
+    width: 200px;
+    height: 200px;
+}
+
+.maps > h4{
+    padding: 15px 0;
+}
+
+.maps > button{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background-color: rgb(199, 6, 6);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    appearance: none;
+    border-radius: 5px;   
+}
+
+.maps > button:hover{
+    background-color: rgb(165,2,2);
+}
+
+.maps > button > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* INICIO PAGE REGISTRATION */
+
+.form__registration{
+    background-color:rgba(0, 0, 0, 0.582);
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.form__separate{
+    padding: 5%;
+    width: 50%;
+    color: white;
+}
+
+.input__line{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(165, 2, 2);
+    margin-bottom: 10px;
+    outline: 0;
+    color: white;
+    appearance: none;
+}
+
+.form__date{
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.form__brith > input{
+    background-color: rgb(199, 6, 6);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form__date--two{
+    padding: 10px 0;
+}
+
+.parrafo__bold--one{
+    font-weight: bold;
+    padding: 5px 0;
+
+}
+
+.form__gender{
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.form__grade{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form__school--options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form__school--options > div{
+    padding: 1%;
+}
+
+.form__bold--content{
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+}
+
+.content__subtitle--parrafo{
+    padding-bottom: 30px;
+}
+
+.subtitle__form{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+

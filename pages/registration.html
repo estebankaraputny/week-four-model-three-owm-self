@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="Propiedad del copyright">
+    <meta name="author" content="Esteban Karaputny">
+    <meta name="description" content="bla bla bla">
+    <meta name="keywords" content="bla bla bla">
+    <meta name="robots" content="index">
+    <meta name="robots" content="follow">
+    <title>Registration - MDHL</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-navegation">
+        <nav class="navegation">
+            <div class="navegation-image">
+                <img class="image-logo" src="../assets/image/logo-migthy-ducks-01.png" alt="Logo del equipo de hockey sobre hielo">
+            </div>
+            <div class="navegation-title">
+                <h1 class="title-principal">Mighty Ducks Hockey League</h1>
+            </div>
+            <div class="navegation-list">
+                <ul class="navegation-links">
+                    <li class="list"><a class="links" href="../index.html">Home</a></li>
+                    <li class="list"><a class="links" href="about.html">About</a></li>
+                    <li class="list"><a class="links" href="contact.html">Contact</a></li>
+                    <li class="list"><a class="links" href="rules.html">Rules</a></li>
+                    <li class="list"><a class="links" href="game_info.html">Games</a></li>
+                    <li class="list"><a class="links" href="registration.html">Registration</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container-section">
+        <div class="title-pages">
+            <h2 class="title-pages-h2">Registration Form</h2>
+        </div>
+       <div>
+        <form action="show_data.html" method="get">
+            <div class="form__registration">
+                <div class="form__separate">
+                        <div class="form__date--one">
+                            <label for="first-name">Player´s First Name</label>
+                            <input class="input__line" type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="form__date--one">
+                            <label for="last-name">Last Name</label>
+                            <input class="input__line" type="text" id="last-name" name="last-name">
+                        </div>
+                    <div class="form__date--one">
+                        <label for="address">Street Address</label>
+                        <input class="input__large--one input__line" type="text" id="address" name="address">
+                    </div>
+                        <div class="form__date--one">
+                            <label for="city">City</label>
+                            <input class="input__line" type="text" id="city" name="city">
+                        </div>
+                        <div class="form__date--one">
+                            <label for="zip-code">Zip Code</label>
+                            <input class="input__line" type="text" id="zip-code" name="zip-code">
+                        </div>
+                    <div class="form__date--two">
+                        <div class="form__brith">
+                            <label for="brith-date">Brith Date(mm/dd/yyyy):</label>
+                            <input type="date" id="brith-date" name="brith-date">
+                        </div>
+                      <div class="form__date">
+                        <p class="parrafo__bold--one">Gender</p>
+                        <div class="form__gender">
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female"
+                                checked>
+                                <label for="female">Female</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="say" name="gender" value="say">
+                                <label for="say"> I prefer not to say</label>
+                            </div>
+                          </div>
+                        </div> 
+                    </div>
+                    <div class="form__date">
+                        <p class="parrafo__bold--one">Grade</p>
+                        <div class="form__grade">
+                            <div>
+                                <input type="radio" id="pre-school" name="grade" value="pre-school">
+                                <label for="pre-school">Pre-School</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="one" name="grade" value="one">
+                                <label for="one">1st</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="two" name="grade" value="two">
+                                <label for="two">2nd</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="three" name="grade" value="three">
+                                <label for="three">3rd</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="four" name="grade" value="four">
+                                <label for="four">4th</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="five" name="grade" value="five">
+                                <label for="five">5th</label>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="form__date">
+                        <p class="parrafo__bold--one">Which elementary school do you live near?</p>
+                        <div>
+                            <label class="parrafo__bold--one">Closest School</label>
+                        </div>
+                        <div class="form__date">
+                                <div class="form__school--options">
+                                    <div>
+                                        <input type="radio" id="aj-katzenmaier" name="closest-school" value="aj-katzenmaier">
+                                        <label for="aj-katzenmaier">AJ Katzenmaier</label>  
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="greenbay" name="closest-school" value="greenbay">
+                                        <label for="greenbay">Greenbay</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="howard-a-yeager" name="closest-school" value="howard-a-yeager">
+                                        <label for="howard-a-yeager">Howard A Yeager</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="marjorie-p-hart" name="closest-school" value="marjorie-p-hart">
+                                        <label for="marjorie-p-hart">Marjorie P Hart</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="north-elementary" name="closest-school" value="north-elementary">
+                                        <label for="north-elementary">North Elementary</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="south-elementary" name="closest-school" value="south-elementary">
+                                        <label for="south-elementary">South Elementary</label>
+                                    </div>
+                                </div>
+                          </div>
+                          <div>
+                            <p  class="parrafo__bold--one">What Position(s) do you normally play? (chek all that apply)</p>
+                            <div>
+                                <div class="form__date">
+                                    <div class="form__school--options">
+                                        <div>
+                                            <input type="checkbox" id="forward" name="position" value="forward">
+                                            <label for="forward">Forward</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" id="defense" name="position" value="defense">
+                                            <label for="defense">Defense</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" id="midfield" name="position" value="midfield">
+                                            <label for="midfield">Midfield</label>
+                                        </div>
+                                        <div>
+                                            <input type="checkbox" id="goalkeeper" name="position" value="goalkeeper">
+                                            <label for="goalkeeper">Goalkeeper</label>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      <div>
+                        <p  class="parrafo__bold">Uniform Size:</p>
+                            <div class="form__date">
+                                <div class="form__school--options">
+                                    <div>
+                                        <input type="checkbox" id="youth-small" name="unirform-size" value="youth-small">
+                                        <label for="youth-small">Youth Small</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="youth-medium" name="unirform-size" value="youth-medium">
+                                        <label for="youth-medium">Youth Medium</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="youth-large" name="unirform-size" value="youth-large">
+                                        <label for="youth-large">Youth Large</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="small" name="unirform-size" value="small">
+                                        <label for="small">Small</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="medium" name="unirform-size" value="medium">
+                                        <label for="medium">Medium</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="large" name="unirform-size" value="large">
+                                        <label for="large">Large</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="extra-large" name="unirform-size" value="extra-large">
+                                        <label for="extra-large">Extra-Large</label>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>    
+                <div class="form__separate form__bold--content">
+                    <div class="content__subtitle--parrafo">
+                        <h3 class="subtitle__form">Permission to Play</h3>
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+                            the Mighty Ducks Hockey League (MDHL). 
+                            In recognizing the possibility of physical injury associated with hockey and in consideration for the "League"
+                            accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise 
+                            indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for
+                            practices and games, against any claim by or on behalf of the registrant as a result of the registrant's 
+                            participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.
+                            <br> By entering your name below, I herebyagree and authorize the above.ln addition, by signing below,
+                            l also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                      </div>
+                      <div class="form__firma">
+                        <div class="firma">
+                            <label for="parent">Parent/Guardian</label>
+                            <input class="input__large--two input__line" type="text" id="parent" name="parent" placeholder="Signature">
+                        </div>
+                        <div class="form__brith">
+                            <label for="date">Date</label>
+                            <input class="input__line" type="date" id="date" name="date">
+                        </div>
+                      </div>
+                      <div>
+                        <button class="form-botton" type="submit">Send</button>
+                      </div>
+                </div>
+            </div>
+            
+            
+        </form>
+       </div>
+    </main>
+</body>
+</html>
